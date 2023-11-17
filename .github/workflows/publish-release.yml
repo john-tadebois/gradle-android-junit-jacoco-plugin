@@ -9,7 +9,7 @@ jobs:
   publish:
 
     runs-on: ubuntu-latest
-    if: github.repository == 'vanniktech/gradle-android-junit-jacoco-plugin'
+    if: github.repository == 'john-tadebois/gradle-android-junit-jacoco-plugin'
 
     steps:
       - name: Checkout
